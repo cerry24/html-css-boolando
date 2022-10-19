@@ -66,6 +66,7 @@ ul>li {
     left: 0;
     background-color: red;
     padding: .5rem;
+    color: white;
 }
 
 .sustainability {
@@ -74,6 +75,12 @@ ul>li {
     left: 54px;
     background-color: green;
     padding: .5rem;
+    color: white;
+}
+
+.sustainability-only {
+    bottom: 10%;
+    left: 0;
 }
 
 .favourite {
@@ -95,4 +102,12 @@ ul>li {
 
 .d-product:hover .over-view {
     display: block;
+}
+
+.color-red {
+    color: red;
+}
+
+.line-through {
+    text-decoration: line-through;
 }
