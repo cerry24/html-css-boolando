@@ -9,7 +9,7 @@
 }
 
 .container{
-    width: 70%;
+    width: 73%;
     margin: 0 auto;
     height: 100%;
 }
@@ -110,4 +110,23 @@ ul>li {
 
 .line-through {
     text-decoration: line-through;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer>section {
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+footer h4 {
+    padding-left: 1rem;
+}
+
+footer h5 {
+    text-align: center;
 }
