@@ -20,11 +20,8 @@ nav .personal-space {
     flex-basis: 33%;
 }
 
-nav>ul {
+ul>li {
     display: inline-block;
-}
-
-.main-menu ul {
     margin: 1rem;
 }
 
