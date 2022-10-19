@@ -42,3 +42,43 @@ ul>li {
 .personal-area {
     justify-content: end;
 }
+
+.products-row {
+    margin-top: 2rem;
+}
+
+.products-row article {
+    flex-basis: calc(80% / 3 - 3rem);
+    position: relative;
+    margin-right: 1rem;
+}
+
+#tee1 {
+    width: 28rem;
+}
+
+.discount {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    background-color: red;
+    padding: .5rem;
+}
+
+.sustainability {
+    position: absolute;
+    bottom: 10%;
+    left: 54px;
+    background-color: green;
+    padding: .5rem;
+}
+
+.favourite {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
