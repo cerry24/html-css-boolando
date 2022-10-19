@@ -14,21 +14,31 @@
     height: 100%;
 }
 
+header {
+    background-color: #ff6900;
+    color: white;
+}
+
 nav .main-menu,
 nav .main-logo,
-nav .personal-space {
+nav .personal-area {
     flex-basis: 33%;
 }
 
 ul>li {
     display: inline-block;
-    margin: 1rem;
+    margin: .8rem;
 }
 
 .main-logo {
     text-align: center;
 }
 
-.personal-space {
-    text-align: end;
+.main-logo img {
+    width: 10rem;
+    padding: .5rem;
+}
+
+.personal-area {
+    justify-content: end;
 }
