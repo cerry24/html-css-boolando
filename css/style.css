@@ -49,11 +49,14 @@ ul>li {
 
 .products-row article {
     flex-basis: calc(80% / 3 - 3rem);
-    position: relative;
     margin-right: 1rem;
 }
 
-#tee1 {
+.d-product {
+    position: relative;
+}
+
+.d-product>img {
     width: 28rem;
 }
 
@@ -81,4 +84,15 @@ ul>li {
     padding: .5rem 1rem;
     font-size: 2rem;
     text-align: center;
+}
+
+.over-view {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.d-product:hover .over-view {
+    display: block;
 }
